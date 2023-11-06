@@ -104,19 +104,6 @@ df[df['Date'] == '4/3/20']
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -323,19 +310,6 @@ label
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -477,7 +451,7 @@ print(d)
 # Khởi tạo không gian 3 chiều(3D Tensor)
 g = torch.tensor([[[1., 2.], [3., 4.]], [[5., 6.], [7., 8.]]])
 print(g)
-
+```
 ## 6. Tensorflow:
 Tensorflow là một thư viện mã nguồn mở dành cho Machine Learning, được tạo ra từ 50 đội khác nhau trong các sản phẩm thương mại của Google như: Nhận dạng giọng nói, Google Photos, Gmail và cả Google Search. Tensorflow là thế hệ thứ 2 trong hệ thống Machine Learning được phát hành vào ngày 9/11/2015, kế nhiệm từ DistBelief là hệ thống Machine Learning đầu tiên được xây dựng bởi đội Google Brain. Nó cung cấp đầy đủ các công cụ để xây dựng một thuật toán Machine Learning từ nhỏ bé đến rất lớn, kèm với đó Tensorflow còn cung cấp thêm các công cụ tuyệt vời như:
 + TensorBoard: công cụ giúp minh họa các đồ thị tính toán (computational graph), sự thay đổi giá trị của các hàm tính toán (loss, accuracy,…) dưới dạng biểu đồ.
@@ -587,7 +561,7 @@ if __name__ == "__main__":
 
 Ảnh gốc:
 <img src = 'cat.jpg' />
-Ảnh sao khi xử lý:
+Ảnh sau khi xử lý:
 <img src = 'adaptive_cat.jpg' />
 
 ## 9. SciPy:
