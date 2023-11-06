@@ -477,23 +477,6 @@ print(d)
 # Khởi tạo không gian 3 chiều(3D Tensor)
 g = torch.tensor([[[1., 2.], [3., 4.]], [[5., 6.], [7., 8.]]])
 print(g)
-```
-
-
-    ---------------------------------------------------------------------------
-
-    ModuleNotFoundError                       Traceback (most recent call last)
-
-    <ipython-input-5-226d96167bea> in <module>
-    ----> 1 import torch
-          2 
-          3 # Khởi tạo 1 Tensor với chỉ một hàng chứa toàn giá trị 1
-          4 a = torch.ones(5)
-          5 
-    
-
-    ModuleNotFoundError: No module named 'torch'
-
 
 ## 6. Tensorflow:
 Tensorflow là một thư viện mã nguồn mở dành cho Machine Learning, được tạo ra từ 50 đội khác nhau trong các sản phẩm thương mại của Google như: Nhận dạng giọng nói, Google Photos, Gmail và cả Google Search. Tensorflow là thế hệ thứ 2 trong hệ thống Machine Learning được phát hành vào ngày 9/11/2015, kế nhiệm từ DistBelief là hệ thống Machine Learning đầu tiên được xây dựng bởi đội Google Brain. Nó cung cấp đầy đủ các công cụ để xây dựng một thuật toán Machine Learning từ nhỏ bé đến rất lớn, kèm với đó Tensorflow còn cung cấp thêm các công cụ tuyệt vời như:
